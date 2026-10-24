@@ -49,7 +49,7 @@ python app.py               # 打开 http://127.0.0.1:5000
 
 前端已把 `use_llm` 默认置 true，配好 Key 即自动启用混元。
 
-## 比赛加分点（已内置）
+## 亮点
 - 🔴 **审 AI 幻觉**：全场差异化角度，路演自带反差梗；
 - 🟢 **审谣言 Tab**：覆盖最易共鸣的真实场景；
 - 🟣 **独立信源检测**：多来源一致度 + 去重域名，避免「五家媒体其实同一出处」的假一致；
@@ -64,7 +64,7 @@ ai-detective/
 ├── wsa_client.py       # 元宝搜索 SearchPro 封装（离线/在线双实现）
 ├── claim_extractor.py  # 断言抽取（启发式 + LLM 钩子）
 ├── verifier.py         # 核对引擎：判定四态 + 报告汇总
-├── sample_data.py      # 离线预置样例（含路演高光案例）
+├── sample_data.py      # 离线预置样例（含路演案例）
 ├── templates/index.html
 ├── static/{style.css, app.js}
 ├── requirements.txt
